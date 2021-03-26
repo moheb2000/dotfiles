@@ -1,0 +1,8 @@
+xset -b &
+nm-applet &
+nitrogen --restore &
+volumeicon &
+setxkbmap -layout "us,ir" -option "grp:alt_shift_toggle" &
+conky -c ~/.config/conky/syclo/syclo-cyan-topleft.conkyrc &
+tint2 -c ~/.config/tint2/starty/starty.tint2rc &
+picom
